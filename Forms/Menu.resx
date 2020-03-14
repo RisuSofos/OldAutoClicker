@@ -1,0 +1,960 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="QuedActions.Alignment" type="System.Windows.Forms.ListViewAlignment, System.Windows.Forms">
+    <value>Default</value>
+  </data>
+  <data name="InputHeader.Text" xml:space="preserve">
+    <value>Input</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="InputHeader.Width" type="System.Int32, mscorlib">
+    <value>110</value>
+  </data>
+  <data name="PositionHeader.Text" xml:space="preserve">
+    <value>Position</value>
+  </data>
+  <data name="PositionHeader.Width" type="System.Int32, mscorlib">
+    <value>127</value>
+  </data>
+  <data name="DelayHeader.Text" xml:space="preserve">
+    <value>Delay</value>
+  </data>
+  <data name="DelayHeader.Width" type="System.Int32, mscorlib">
+    <value>124</value>
+  </data>
+  <data name="RepeatHeader.Text" xml:space="preserve">
+    <value>Repeat</value>
+  </data>
+  <data name="RepeatHeader.Width" type="System.Int32, mscorlib">
+    <value>106</value>
+  </data>
+  <data name="KeyCodeHeader.Text" xml:space="preserve">
+    <value>Keycode</value>
+  </data>
+  <data name="KeyCodeHeader.Width" type="System.Int32, mscorlib">
+    <value>70</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="QuedActions.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 116</value>
+  </data>
+  <data name="QuedActions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>537, 322</value>
+  </data>
+  <data name="QuedActions.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;QuedActions.Name" xml:space="preserve">
+    <value>QuedActions</value>
+  </data>
+  <data name="&gt;&gt;QuedActions.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;QuedActions.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;QuedActions.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <metadata name="Delay.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="AddBTN.Location" type="System.Drawing.Point, System.Drawing">
+    <value>474, 13</value>
+  </data>
+  <data name="AddBTN.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="AddBTN.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="AddBTN.Text" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="&gt;&gt;AddBTN.Name" xml:space="preserve">
+    <value>AddBTN</value>
+  </data>
+  <data name="&gt;&gt;AddBTN.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AddBTN.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;AddBTN.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <metadata name="InputSelect.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="InputSelect.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="InputSelect.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Katakana</value>
+  </data>
+  <data name="InputSelect.Items" xml:space="preserve">
+    <value />
+  </data>
+  <data name="InputSelect.Items1" xml:space="preserve">
+    <value>Keyboard</value>
+  </data>
+  <data name="InputSelect.Items2" xml:space="preserve">
+    <value>Mouse (Left Click)</value>
+  </data>
+  <data name="InputSelect.Items3" xml:space="preserve">
+    <value>Mouse (Middle Click)</value>
+  </data>
+  <data name="InputSelect.Items4" xml:space="preserve">
+    <value>Mouse (Right Click)</value>
+  </data>
+  <data name="InputSelect.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 13</value>
+  </data>
+  <data name="InputSelect.MaxDropDownItems" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="InputSelect.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 21</value>
+  </data>
+  <data name="InputSelect.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="InputSelect.Text" xml:space="preserve">
+    <value>-select input-</value>
+  </data>
+  <data name="&gt;&gt;InputSelect.Name" xml:space="preserve">
+    <value>InputSelect</value>
+  </data>
+  <data name="&gt;&gt;InputSelect.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;InputSelect.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;InputSelect.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;textBox3.Name" xml:space="preserve">
+    <value>textBox3</value>
+  </data>
+  <data name="&gt;&gt;textBox3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox3.Parent" xml:space="preserve">
+    <value>MouseBOX</value>
+  </data>
+  <data name="&gt;&gt;textBox3.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;CustomMouseBTN.Name" xml:space="preserve">
+    <value>CustomMouseBTN</value>
+  </data>
+  <data name="&gt;&gt;CustomMouseBTN.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CustomMouseBTN.Parent" xml:space="preserve">
+    <value>MouseBOX</value>
+  </data>
+  <data name="&gt;&gt;CustomMouseBTN.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;YposLBL.Name" xml:space="preserve">
+    <value>YposLBL</value>
+  </data>
+  <data name="&gt;&gt;YposLBL.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;YposLBL.Parent" xml:space="preserve">
+    <value>MouseBOX</value>
+  </data>
+  <data name="&gt;&gt;YposLBL.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;textBox2.Name" xml:space="preserve">
+    <value>textBox2</value>
+  </data>
+  <data name="&gt;&gt;textBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox2.Parent" xml:space="preserve">
+    <value>MouseBOX</value>
+  </data>
+  <data name="&gt;&gt;textBox2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;CurrentMouseBTN.Name" xml:space="preserve">
+    <value>CurrentMouseBTN</value>
+  </data>
+  <data name="&gt;&gt;CurrentMouseBTN.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CurrentMouseBTN.Parent" xml:space="preserve">
+    <value>MouseBOX</value>
+  </data>
+  <data name="&gt;&gt;CurrentMouseBTN.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;XposLBL.Name" xml:space="preserve">
+    <value>XposLBL</value>
+  </data>
+  <data name="&gt;&gt;XposLBL.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;XposLBL.Parent" xml:space="preserve">
+    <value>MouseBOX</value>
+  </data>
+  <data name="&gt;&gt;XposLBL.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="MouseBOX.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="MouseBOX.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 41</value>
+  </data>
+  <data name="MouseBOX.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 69</value>
+  </data>
+  <data name="MouseBOX.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="MouseBOX.Text" xml:space="preserve">
+    <value>Mouse Position</value>
+  </data>
+  <data name="&gt;&gt;MouseBOX.Name" xml:space="preserve">
+    <value>MouseBOX</value>
+  </data>
+  <data name="&gt;&gt;MouseBOX.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MouseBOX.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;MouseBOX.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="textBox3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>141, 39</value>
+  </data>
+  <data name="textBox3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 20</value>
+  </data>
+  <data name="textBox3.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;textBox3.Name" xml:space="preserve">
+    <value>textBox3</value>
+  </data>
+  <data name="&gt;&gt;textBox3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox3.Parent" xml:space="preserve">
+    <value>MouseBOX</value>
+  </data>
+  <data name="&gt;&gt;textBox3.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="CustomMouseBTN.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CustomMouseBTN.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 44</value>
+  </data>
+  <data name="CustomMouseBTN.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 17</value>
+  </data>
+  <data name="CustomMouseBTN.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="CustomMouseBTN.Text" xml:space="preserve">
+    <value>Custom</value>
+  </data>
+  <data name="&gt;&gt;CustomMouseBTN.Name" xml:space="preserve">
+    <value>CustomMouseBTN</value>
+  </data>
+  <data name="&gt;&gt;CustomMouseBTN.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CustomMouseBTN.Parent" xml:space="preserve">
+    <value>MouseBOX</value>
+  </data>
+  <data name="&gt;&gt;CustomMouseBTN.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="YposLBL.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="YposLBL.Location" type="System.Drawing.Point, System.Drawing">
+    <value>127, 46</value>
+  </data>
+  <data name="YposLBL.Size" type="System.Drawing.Size, System.Drawing">
+    <value>12, 13</value>
+  </data>
+  <data name="YposLBL.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="YposLBL.Text" xml:space="preserve">
+    <value>y</value>
+  </data>
+  <data name="&gt;&gt;YposLBL.Name" xml:space="preserve">
+    <value>YposLBL</value>
+  </data>
+  <data name="&gt;&gt;YposLBL.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;YposLBL.Parent" xml:space="preserve">
+    <value>MouseBOX</value>
+  </data>
+  <data name="&gt;&gt;YposLBL.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="textBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>91, 39</value>
+  </data>
+  <data name="textBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 20</value>
+  </data>
+  <data name="textBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;textBox2.Name" xml:space="preserve">
+    <value>textBox2</value>
+  </data>
+  <data name="&gt;&gt;textBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox2.Parent" xml:space="preserve">
+    <value>MouseBOX</value>
+  </data>
+  <data name="&gt;&gt;textBox2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="CurrentMouseBTN.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CurrentMouseBTN.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 20</value>
+  </data>
+  <data name="CurrentMouseBTN.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 17</value>
+  </data>
+  <data name="CurrentMouseBTN.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="CurrentMouseBTN.Text" xml:space="preserve">
+    <value>Follow</value>
+  </data>
+  <data name="&gt;&gt;CurrentMouseBTN.Name" xml:space="preserve">
+    <value>CurrentMouseBTN</value>
+  </data>
+  <data name="&gt;&gt;CurrentMouseBTN.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CurrentMouseBTN.Parent" xml:space="preserve">
+    <value>MouseBOX</value>
+  </data>
+  <data name="&gt;&gt;CurrentMouseBTN.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="XposLBL.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="XposLBL.Location" type="System.Drawing.Point, System.Drawing">
+    <value>73, 46</value>
+  </data>
+  <data name="XposLBL.Size" type="System.Drawing.Size, System.Drawing">
+    <value>12, 13</value>
+  </data>
+  <data name="XposLBL.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="XposLBL.Text" xml:space="preserve">
+    <value>x</value>
+  </data>
+  <data name="&gt;&gt;XposLBL.Name" xml:space="preserve">
+    <value>XposLBL</value>
+  </data>
+  <data name="&gt;&gt;XposLBL.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;XposLBL.Parent" xml:space="preserve">
+    <value>MouseBOX</value>
+  </data>
+  <data name="&gt;&gt;XposLBL.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="HoursTBX.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 19</value>
+  </data>
+  <data name="HoursTBX.MaxLength" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="HoursTBX.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 20</value>
+  </data>
+  <data name="HoursTBX.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;HoursTBX.Name" xml:space="preserve">
+    <value>HoursTBX</value>
+  </data>
+  <data name="&gt;&gt;HoursTBX.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;HoursTBX.Parent" xml:space="preserve">
+    <value>DelayBOX</value>
+  </data>
+  <data name="&gt;&gt;HoursTBX.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="MinsTBX.Location" type="System.Drawing.Point, System.Drawing">
+    <value>101, 19</value>
+  </data>
+  <data name="MinsTBX.MaxLength" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="MinsTBX.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 20</value>
+  </data>
+  <data name="MinsTBX.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;MinsTBX.Name" xml:space="preserve">
+    <value>MinsTBX</value>
+  </data>
+  <data name="&gt;&gt;MinsTBX.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MinsTBX.Parent" xml:space="preserve">
+    <value>DelayBOX</value>
+  </data>
+  <data name="&gt;&gt;MinsTBX.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="HoursLBL.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="HoursLBL.Location" type="System.Drawing.Point, System.Drawing">
+    <value>46, 26</value>
+  </data>
+  <data name="HoursLBL.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 13</value>
+  </data>
+  <data name="HoursLBL.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="HoursLBL.Text" xml:space="preserve">
+    <value>Hours</value>
+  </data>
+  <data name="&gt;&gt;HoursLBL.Name" xml:space="preserve">
+    <value>HoursLBL</value>
+  </data>
+  <data name="&gt;&gt;HoursLBL.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;HoursLBL.Parent" xml:space="preserve">
+    <value>DelayBOX</value>
+  </data>
+  <data name="&gt;&gt;HoursLBL.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;msTBX.Name" xml:space="preserve">
+    <value>msTBX</value>
+  </data>
+  <data name="&gt;&gt;msTBX.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;msTBX.Parent" xml:space="preserve">
+    <value>DelayBOX</value>
+  </data>
+  <data name="&gt;&gt;msTBX.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;secTBX.Name" xml:space="preserve">
+    <value>secTBX</value>
+  </data>
+  <data name="&gt;&gt;secTBX.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;secTBX.Parent" xml:space="preserve">
+    <value>DelayBOX</value>
+  </data>
+  <data name="&gt;&gt;secTBX.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;MSLBL.Name" xml:space="preserve">
+    <value>MSLBL</value>
+  </data>
+  <data name="&gt;&gt;MSLBL.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MSLBL.Parent" xml:space="preserve">
+    <value>DelayBOX</value>
+  </data>
+  <data name="&gt;&gt;MSLBL.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;SecondsLBL.Name" xml:space="preserve">
+    <value>SecondsLBL</value>
+  </data>
+  <data name="&gt;&gt;SecondsLBL.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SecondsLBL.Parent" xml:space="preserve">
+    <value>DelayBOX</value>
+  </data>
+  <data name="&gt;&gt;SecondsLBL.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;MinsLBL.Name" xml:space="preserve">
+    <value>MinsLBL</value>
+  </data>
+  <data name="&gt;&gt;MinsLBL.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MinsLBL.Parent" xml:space="preserve">
+    <value>DelayBOX</value>
+  </data>
+  <data name="&gt;&gt;MinsLBL.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="DelayBOX.Location" type="System.Drawing.Point, System.Drawing">
+    <value>196, 61</value>
+  </data>
+  <data name="DelayBOX.Size" type="System.Drawing.Size, System.Drawing">
+    <value>353, 49</value>
+  </data>
+  <data name="DelayBOX.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="DelayBOX.Text" xml:space="preserve">
+    <value>Delay</value>
+  </data>
+  <data name="&gt;&gt;DelayBOX.Name" xml:space="preserve">
+    <value>DelayBOX</value>
+  </data>
+  <data name="&gt;&gt;DelayBOX.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DelayBOX.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;DelayBOX.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="msTBX.Location" type="System.Drawing.Point, System.Drawing">
+    <value>285, 20</value>
+  </data>
+  <data name="msTBX.MaxLength" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="msTBX.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 20</value>
+  </data>
+  <data name="msTBX.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="msTBX.Text" xml:space="preserve">
+    <value>100</value>
+  </data>
+  <data name="&gt;&gt;msTBX.Name" xml:space="preserve">
+    <value>msTBX</value>
+  </data>
+  <data name="&gt;&gt;msTBX.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;msTBX.Parent" xml:space="preserve">
+    <value>DelayBOX</value>
+  </data>
+  <data name="&gt;&gt;msTBX.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="secTBX.Location" type="System.Drawing.Point, System.Drawing">
+    <value>195, 19</value>
+  </data>
+  <data name="secTBX.MaxLength" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="secTBX.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 20</value>
+  </data>
+  <data name="secTBX.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;secTBX.Name" xml:space="preserve">
+    <value>secTBX</value>
+  </data>
+  <data name="&gt;&gt;secTBX.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;secTBX.Parent" xml:space="preserve">
+    <value>DelayBOX</value>
+  </data>
+  <data name="&gt;&gt;secTBX.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="MSLBL.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="MSLBL.Location" type="System.Drawing.Point, System.Drawing">
+    <value>325, 27</value>
+  </data>
+  <data name="MSLBL.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 13</value>
+  </data>
+  <data name="MSLBL.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="MSLBL.Text" xml:space="preserve">
+    <value>ms.</value>
+  </data>
+  <data name="&gt;&gt;MSLBL.Name" xml:space="preserve">
+    <value>MSLBL</value>
+  </data>
+  <data name="&gt;&gt;MSLBL.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MSLBL.Parent" xml:space="preserve">
+    <value>DelayBOX</value>
+  </data>
+  <data name="&gt;&gt;MSLBL.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="SecondsLBL.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="SecondsLBL.Location" type="System.Drawing.Point, System.Drawing">
+    <value>235, 26</value>
+  </data>
+  <data name="SecondsLBL.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 13</value>
+  </data>
+  <data name="SecondsLBL.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="SecondsLBL.Text" xml:space="preserve">
+    <value>Sec.</value>
+  </data>
+  <data name="&gt;&gt;SecondsLBL.Name" xml:space="preserve">
+    <value>SecondsLBL</value>
+  </data>
+  <data name="&gt;&gt;SecondsLBL.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SecondsLBL.Parent" xml:space="preserve">
+    <value>DelayBOX</value>
+  </data>
+  <data name="&gt;&gt;SecondsLBL.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="MinsLBL.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="MinsLBL.Location" type="System.Drawing.Point, System.Drawing">
+    <value>141, 26</value>
+  </data>
+  <data name="MinsLBL.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 13</value>
+  </data>
+  <data name="MinsLBL.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="MinsLBL.Text" xml:space="preserve">
+    <value>Mins.</value>
+  </data>
+  <data name="&gt;&gt;MinsLBL.Name" xml:space="preserve">
+    <value>MinsLBL</value>
+  </data>
+  <data name="&gt;&gt;MinsLBL.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MinsLBL.Parent" xml:space="preserve">
+    <value>DelayBOX</value>
+  </data>
+  <data name="&gt;&gt;MinsLBL.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="RecordBTN.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="RecordBTN.Location" type="System.Drawing.Point, System.Drawing">
+    <value>140, 12</value>
+  </data>
+  <data name="RecordBTN.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="RecordBTN.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="RecordBTN.Text" xml:space="preserve">
+    <value>Record</value>
+  </data>
+  <data name="&gt;&gt;RecordBTN.Name" xml:space="preserve">
+    <value>RecordBTN</value>
+  </data>
+  <data name="&gt;&gt;RecordBTN.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RecordBTN.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;RecordBTN.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="SelectedTBX.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="SelectedTBX.Location" type="System.Drawing.Point, System.Drawing">
+    <value>222, 12</value>
+  </data>
+  <data name="SelectedTBX.MaxLength" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="SelectedTBX.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 20</value>
+  </data>
+  <data name="SelectedTBX.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;SelectedTBX.Name" xml:space="preserve">
+    <value>SelectedTBX</value>
+  </data>
+  <data name="&gt;&gt;SelectedTBX.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SelectedTBX.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;SelectedTBX.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="KeycodeTBX.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="KeycodeTBX.Location" type="System.Drawing.Point, System.Drawing">
+    <value>222, 38</value>
+  </data>
+  <data name="KeycodeTBX.MaxLength" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="KeycodeTBX.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 20</value>
+  </data>
+  <data name="KeycodeTBX.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;KeycodeTBX.Name" xml:space="preserve">
+    <value>KeycodeTBX</value>
+  </data>
+  <data name="&gt;&gt;KeycodeTBX.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;KeycodeTBX.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;KeycodeTBX.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="TestBTN.Location" type="System.Drawing.Point, System.Drawing">
+    <value>474, 42</value>
+  </data>
+  <data name="TestBTN.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="TestBTN.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="TestBTN.Text" xml:space="preserve">
+    <value>Test</value>
+  </data>
+  <data name="&gt;&gt;TestBTN.Name" xml:space="preserve">
+    <value>TestBTN</value>
+  </data>
+  <data name="&gt;&gt;TestBTN.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TestBTN.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;TestBTN.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>909, 450</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Menu</value>
+  </data>
+  <data name="&gt;&gt;InputHeader.Name" xml:space="preserve">
+    <value>InputHeader</value>
+  </data>
+  <data name="&gt;&gt;InputHeader.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PositionHeader.Name" xml:space="preserve">
+    <value>PositionHeader</value>
+  </data>
+  <data name="&gt;&gt;PositionHeader.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DelayHeader.Name" xml:space="preserve">
+    <value>DelayHeader</value>
+  </data>
+  <data name="&gt;&gt;DelayHeader.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RepeatHeader.Name" xml:space="preserve">
+    <value>RepeatHeader</value>
+  </data>
+  <data name="&gt;&gt;RepeatHeader.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;KeyCodeHeader.Name" xml:space="preserve">
+    <value>KeyCodeHeader</value>
+  </data>
+  <data name="&gt;&gt;KeyCodeHeader.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Delay.Name" xml:space="preserve">
+    <value>Delay</value>
+  </data>
+  <data name="&gt;&gt;Delay.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Menu</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
